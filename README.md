@@ -1,6 +1,8 @@
-# buildspace 
-### Welcome 👋
-This is the starter template for the [build your own AI writing assistant w/ GPT-3](https://buildspace.so/builds/ai-writer) project. 
+## GPT-3 extension 
+An extension that can be inject text into websites when given prompts.
 
-### **Questions?**
-Have some questions make sure you head over to your [buildspace Dashboard](https://buildspace.so/p/build-ai-writing-assistant-gpt3) and link your Discord account so you can get access to helpful channels and your instructor!
+#Follow along: 
+1. Extract or fork the repository on you local system.
+2. go to (chrome://extensions), make sure to switch on the [Developers Mode].
+3. Unpack the files, pin the extension and enter your openAI key.
+4. You can hord on to https://www.calmlywriter.com/online/ to play around with the extension.
