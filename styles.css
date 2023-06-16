@@ -36,3 +36,44 @@ body {
     #change_key_button:hover {
     background-color: #2fd33d;
     }
+
+/*
+body {
+  background-color: #f2d668;
+  font-family: Arial, sans-serif;
+  min-width: 250px;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 4px;
+}
+
+#key_needed {
+  text-align: center;
+  margin-top: 50px;
+}
+
+#key_entered {
+  display: none;
+  text-align: center;
+  margin-top: 50px;
+}
+
+#key_entered p {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+#change_key_button {
+  background-color: #f45636;
+  transition: background-color 0.3s ease-in-out;
+}
+
+#change_key_button:hover {
+  background-color: #2fd33d;
+}
+*/
+
+
