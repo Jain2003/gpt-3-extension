@@ -1,10 +1,17 @@
-const insert = (content) => {
-    const elements = document.getElementsByClassName('droid');
+if(!location.href.startsWith('https://abs.com/')){
+    chrome.action.disable();
+}
 
+
+const insert = (content) => {
+    // const elements = document.getElementsByClassName('droid');
+    const elements = document.getElementsByClassName('_9c5f1d66-denali-editor-editor ql-editor');
     if(elements.length === 0){
         return;
     }
     const element = elements[0];
+
+    const elementDiv = document.getElementsByClassName('_9c5f1d66-denali-editor-editor ql-editor');
 
     const pToRemove = element.childNodes[0];
     pToRemove.remove();

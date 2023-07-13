@@ -19,7 +19,7 @@
   "permissions": ["contextMenus", "tabs", "storage"],
   "content_scripts": [
     {
-      "matches": ["http://*/*", "https://*/*"],
+      "matches": ["https://calmy.com/*"],
       "js": ["scripts/content.js"]
     }
   ]

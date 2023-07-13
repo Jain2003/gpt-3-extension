@@ -43,13 +43,13 @@ const generate = async (info) => {
         }),
     });
     const completion = await completionResponse.json();
+    console.log(completion);
     return completion.choices.pop();
 }
 
 
 const generateCompletionAction = async (info) => {
     try {
-
         sendMessage('generating ... ');
         const { selectionText } = info;
         const basePromptPrefix = `
@@ -71,6 +71,7 @@ chrome.runtime.onInstalled.addListener(() => {
         id: 'context-run',
         title: 'generate LinkedIn post',
         contexts: ['selection']
+        // contexts : ['']
     });
 });
 
